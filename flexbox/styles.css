@@ -1,0 +1,30 @@
+
+.field {
+  width: 800px;
+  height: 800px;
+  border: 2px solid;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.red {
+  background-color: red;
+  align-self: flex-end;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+  align-self: flex-start;
+}
