@@ -1,0 +1,154 @@
+/* concepto de un estilo */
+/* selector {
+  estilo: valor
+} */
+
+/* solo para probar que esta conectado mi archivo */
+/* * {
+  background: red;
+} */
+
+body {
+  margin: 0;
+}
+
+h1 {
+  /* color: red; */
+}
+
+/* tipos de selectores */
+
+/* etiqueta */
+/* h1 {
+
+} */
+
+/* ID */
+
+/* #name {
+  border: 2px solid purple;
+} */
+
+/* clases */
+.descripcion {
+  font-size: 24px;
+  color: #247896;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo {
+  font-size: 16px;
+  color: red;
+}
+
+.texto {
+  color: #0a1f26;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 10px;
+  background-color: #5eb0ce;
+  font-weight: 300;
+  padding: 5px 10px;
+  margin-left: 6px;
+  border-radius: 5px;
+}
+
+
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+
+  .card {
+    width: 400px;
+    overflow: hidden;
+  }
+}
+
+.card {
+  /* border: 2px solid blue; */
+  width: 95%;
+  height: 500px;
+  box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+
+
+
+.img-content {
+  /* border: 2px solid #4f3610; */
+}
+
+.img {
+  width: 100%;
+}
+
+.content {
+  /* border: 2px solid green; */
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.name {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.tarjeta {
+  border: 1px solid red;
+}
+
+
+.img2 {
+  margin: auto;
+}
+
+.ejemplo {
+  border: 2px solid red;
+  text-align: right;
+}
+.config {
+  border: 2px solid blue;
+  width: 10%;
+  margin-left: 90%;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+@media (min-width: 769px) {
+  .main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 600px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  .card {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .img-content {
+    width: 30%;
+  }
+  .content {
+    width: 70%;
+    
+  }
+}
+

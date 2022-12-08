@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.facebook-img {
+  width: 284px;
+}
+
+.card {
+  border-radius: 5px;
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ccd0d5;
+  padding: 16px;
+}
+
+.card-header-title {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.card-header-sub {
+
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 11px;
+  margin-top: 7px;
+  border-radius: 5px;
+  border: 1px solid #ccd0d5
+}
+
+.doble-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doble-input > .input {
+  width: 41%;
+}
+
+.button {
+  margin-top: 20px;
+  background: none;
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 32px;
+  text-shadow: none;
+}
